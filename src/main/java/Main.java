@@ -1,8 +1,9 @@
 public class Main {
     /**
-     * This is a demo function with changed comment
+     /**
+     * This is a demo function with changed comment, also comment changed twice
      * */
-    public int demo(int first, int b, int c, int d) {
-        return first + b + c + first + b + c + d + d + first;
+    public int demo(int first, int b, int c, int d, int testing) {
+        return first + b + c + first + b + c + d + d + first + testing;
     }
 }
