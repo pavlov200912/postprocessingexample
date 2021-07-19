@@ -1,12 +1,13 @@
 public class Main {
+
     /**
      * This is a demo function with changed comment, also comment changed twice, third comment change
      * */
     public int renamed_demo(int first, int b, int c, int d, int testing) {
-        return first + b + c + first + b + c + d + d + first + testing + first + testing;
+        return first + b + c + first + b + c + d + d + first + testing + first;
     }
     /** This is new method **/
     public double newMethod(double a, double b) {
-        return a + b;
+        return a + b + b;
     }
 }
