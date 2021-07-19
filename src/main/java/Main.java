@@ -5,4 +5,8 @@ public class Main {
     public int renamed_demo(int first, int b, int c, int d, int testing) {
         return first + b + c + first + b + c + d + d + first + testing + first + testing;
     }
+    /** This is new method **/
+    public double newMethod(double a, double b) {
+        return a + b;
+    }
 }
